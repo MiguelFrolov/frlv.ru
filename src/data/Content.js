@@ -1,14 +1,18 @@
-export const content = [
+export const contentRu = [
     {
         name: "Михаил Фролов",
-        position: "Web архитектор / разработчик ",
+        position: "Разработчик / архитектор web-систем",
         email: "frlv.ru@gmail.com",
         phone: "+7 (747) 405 8207",
         linkedin: "https://www.linkedin.com/in/mikhail-v-frolov",
     },
     {
+        title: "Основные навыки ",
+        skills: ["Azure", "ASP.NET", ".Net Core", "C#", "JavaScript", "MS SQL", "Cosmos DB", "MongoDB"],
+    },
+    {
         title: "Резюме",
-        description: "Я web-разработчик полного цикла с опытом: проектирования и реализации высоконагруженных систем в области B2B эвентов, разработкой систем под бизнес-процессы компании и адаптации процессов под возможности системы, миграций web-сервисов в облака и обратно.",
+        description: "Я web-разработчик полного цикла с опытом: проектирования и реализации высоконагруженных систем в области B2B эвентов, разработки систем под бизнес-процессы компании и адаптации процессов под возможности системы, миграции web-сервисов в облака и обратно.",
     },
     {
         title: "Достижения",
@@ -18,7 +22,7 @@ export const content = [
                 stack: ["Gatsby JS", "React JS", "MDX", "GitLab CI", "S3 storage" ], 
             },
             { 
-                achievement: "азработан ETL сервис для обмена данными с системами: автоматизации маркетинга (Marketo, InGo), лидогенерации (LeadFrog) и проведения многоканальных эвентов (BigMarker, Grip).", 
+                achievement: "Разработан ETL сервис для обмена данными с системами: автоматизации маркетинга (Marketo, InGo), лидогенерации (LeadFrog) и проведения многоканальных эвентов (BigMarker, Grip).", 
                 stack: ["Azure Data Factory", "Azure Functsons App", ".net Core", "Azure SQL", "Azure Cosmos DB", "3rd party APIs" ], 
             },
             { 
@@ -70,15 +74,15 @@ export const content = [
         ],
     },
     {
-        title: "Основные навыки ",
-        skills: ["Azure", "ASP.NET", ".Net Core", "C#", "JavaScript", "MS SQL", "Cosmos DB", "MongoDB"],
-    },
-    {
         title: "Знание языков",
         languages: [
             {
                 language: "Анклийский",
                 lavel: "B1",
+            },
+            {
+                language: "Русский",
+                lavel: "родной",
             },
         ]
     },
