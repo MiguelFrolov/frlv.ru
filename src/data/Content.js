@@ -39,7 +39,7 @@ export const contentRu = [
         title: "Опыт работы",
         experience: [
             {
-                period: "2007 - по н.в.",
+                period: "2007 - по н.вр.",
                 company: "ITE Group / Hyve Group",
                 industry: "Организация и проведением B2B выставок и конференций",
                 position: "Руководитель команды web-разработки",

@@ -136,6 +136,13 @@ padding-left: 20%;
   }
 }
 
+@media screen and (max-width: 631px) {
+  .year {
+    padding-left:0;
+    width: 20%;
+
+  }
+}
 
 @media print {
   .pagebreak { page-break-before: always; }
