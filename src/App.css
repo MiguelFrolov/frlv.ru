@@ -1,13 +1,67 @@
 .container {
+
+}
+.lang {
+  color: darkblue;
+  padding: .5rem;
+  position: absolute ;
+  right: .5rem;
+  top: 0.5rem;
+}
+.grid {
   display: grid;
   justify-content: center;
-  grid-template-columns: 42.5rem ;
-  grid-gap: 1rem;
+  grid-template-columns: 43rem ;
+  grid-gap: 0;
   grid-auto-flow: row;
+
+  border: 1px solid black;
+  background-color: white;
+
+  width: 44rem;
+  margin: 1rem auto;
+  padding: 3rem 3rem 1rem  3rem;
+}
+.card {
+  border: 0;
+  border-bottom: 1px solid black;
+  margin-bottom: 2rem;
+}
+.card:last-of-type {
+  border: 0;
+}
+.item {
+  margin-bottom: 1.5rem;
+}
+.name {
+
+}
+.position {
+
+}
+.email, .phone {
+  width: 30%;
+  float: left;
+}
+.linkedin {
+  width: 40%;
+  float: left;
+}
+.achievement {
+  margin-left: 1rem;
+  display: list-item;
+  list-style-type: disc;
+  margin-bottom: .5rem;
+}
+.stack {
+  display:block;
+  margin: auto;
+  width: 80%;
+  text-align: center;
 }
 
 @media print {
-  .container {
+  .grid {
     display: grid;
     justify-content: center;
     grid-template-columns: 42.5rem;

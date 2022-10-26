@@ -8,9 +8,9 @@ export default function Card(props) {
             {
                 key === "name" ? <h1>{props.contentObj.name}</h1> :
                     key === "position" ? <h2>{props.contentObj.position}</h2> :
-                        key === "email" ? <a href={`mailto:${props.contentObj.email}`} >{props.contentObj.email}</a> :
-                            key === "phone" ? <a href={`tel:${props.contentObj.phone}`}>{props.contentObj.phone}</a> :
-                                key === "linkedin" ? <a href={props.contentObj.linkedin} target="_blank">{props.contentObj.linkedin.replace("https://www.", "")}</a> :
+                        key === "email" ? <p><a href={`mailto:${props.contentObj.email}`} >{props.contentObj.email}</a></p> :
+                            key === "phone" ? <p><a href={`tel:${props.contentObj.phone}`}>{props.contentObj.phone}</a></p> :
+                                key === "linkedin" ? <p><a href={props.contentObj.linkedin} target="_blank">{props.contentObj.linkedin.replace("https://www.", "")}</a></p> :
                                     key === "title" ? <h3> {props.contentObj.title} </h3> :
                                         key === "description" ? <p>{props.contentObj.description}</p> :
                                             key === "image" ? <img alt={props.contentObj.title} src={require(`${props.contentObj.image}`)} /> :
@@ -24,7 +24,6 @@ export default function Card(props) {
     return (
         <div className="card">
             {keys}
-            <hr/>
         </div>
     )
 }

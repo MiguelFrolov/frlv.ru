@@ -2,9 +2,8 @@ import React from 'react'
 
 
 export default function Item(props) {
-
     const items = Object.entries(props.itemObj).map(([key, value]) =>
-        <div className={key} key={key}>
+        <p className={key} key={key}>
             {
                 key === "achievement" ? <>{props.itemObj.achievement}</> :
                     key === "stack" ? <>{props.itemObj.stack.join(", ")}</> :
@@ -18,12 +17,11 @@ export default function Item(props) {
                                                     Array.isArray(value) ? <>{value.join(", ")}</> :
                                                         <>{value.toString()}</>
             }
-        </div>
+        </p>
     )
     return (
-        <>
+        <div className="item" >
             {items}
-            <br />
-        </>
+        </div>
     )
 }
