@@ -1,7 +1,7 @@
 export const contentRu = [
     {
         name: "Михаил Фролов",
-        position: "Разработчик / архитектор web-систем",
+        job: "Разработчик / архитектор web-систем",
         email: "frlv.ru@gmail.com",
         phone: "+7 (747) 405 8207",
         linkedin: "https://www.linkedin.com/in/mikhail-v-frolov",

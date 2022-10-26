@@ -11,8 +11,8 @@ function App() {
     <div className="container">
       <HashRouter>
         <Routes>
-          <Route path="/" element={<><a className='lang' href="#/ru">русский</a><Grid contentArr={contentEn} /></>} />
-          <Route path="/ru" element={<><a className='lang' href="/">English</a><Grid contentArr={contentRu} /></>} />
+          <Route path="/" element={<><a className='lang' href="#/ru">Ру</a><Grid contentArr={contentEn} /></>} />
+          <Route path="/ru" element={<><a className='lang' href="/">En</a><Grid contentArr={contentRu} /></>} />
           <Route path="*" element={<><a className='lang' href="/">home page</a><h1>route not found</h1></>} status={404} />
         </Routes>
       </HashRouter>
