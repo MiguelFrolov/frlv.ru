@@ -12,7 +12,7 @@ export const contentEn = [
     },
     {
         title: "Summary",
-        description: "I am a full-stack web-developer with experience in designing application architecture and implementing high-loaded systems for B2B events, developing web-systems for company business processes, migrating web services to the Azure cloud. ",
+        description: "I am a full-stack web-developer with experience in designing application architecture and implementing high-loaded systems for B2B events, developing web-systems for company business processes, migrating web services to the Azure cloud.",
     },
     {
         title: "Achievements",
