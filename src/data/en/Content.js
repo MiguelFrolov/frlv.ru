@@ -7,12 +7,8 @@ export const contentEn = [
         linkedin: "https://www.linkedin.com/in/mikhail-v-frolov",
     },
     {
-        title: "Core skills",
-        skills: ["Azure", "ASP.NET", ".Net Core", "C#", "JavaScript", "MS SQL", "Cosmos DB", "MongoDB"],
-    },
-    {
         title: "Summary",
-        description: "I am a full-stack web-developer with experience in designing application architecture and implementing high-loaded systems for B2B events, developing web-systems for company business processes, migrating web services to the Azure cloud.",
+        description: "I am a full-stack web-developer with experience in designing application architecture and implementing high-loaded systems for B2B events, developing web-systems for company business processes, migrating web services to the Azure cloud. Looking for a position as a web developer with growth to system architect or web development team leader.",
     },
     {
         title: "Achievements",
@@ -80,6 +76,10 @@ export const contentEn = [
         ],
     },
     {
+        title: "Core skills",
+        skills: ["Azure", "ASP.NET", ".Net Core", "C#", "JavaScript", "MS SQL", "Cosmos DB", "MongoDB"],
+    },
+    {
         title: "Languages",
         languages: [
             {
@@ -93,7 +93,7 @@ export const contentEn = [
         ]
     },
     {
-        title: "About me",
-        description: "Godfather introduced me to IT, we wrote algorithms for board games on a programmable calculator \"Electronica\", then I coded BASIC programs on a computer \"Spectrum\". With the development of the Internet, my interest was focused on developing websites and web services. I like hiking in the mountains and acrobatics on a trampoline.",
+        title: "Other",
+        description: "Using the experience of the implemented projects, conducted training of colleagues and users. Training and presentations were conducted using ready-made presentation materials and in the form of training projects, online and in classrooms.",
     },
 ];

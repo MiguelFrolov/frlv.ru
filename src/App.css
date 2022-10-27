@@ -47,6 +47,8 @@
   margin: auto;
   width: 80%;
   text-align: center;
+  font-size: .8rem;
+  font-weight:lighter;
 }
 .period::after {
   content: ':';
@@ -56,7 +58,6 @@
   float: left;
 }
 .company {
-  font-weight: bolder;
   width: 80%;
   float: left;
 }
@@ -77,17 +78,16 @@ padding-left: 20%;
 .institution {
   width: 80%;
   float: left;
-  font-weight: bolder;
+  
 }
 .speciality {
   padding-left: 20%;
 }
 .language {
-  margin-left: 1rem;
+  margin-left: 2rem;
   display: list-item;
   list-style-type: disc;
   float: left;
-  clear: left;
 }
 .language::after {
   content: ' - ';
@@ -95,7 +95,6 @@ padding-left: 20%;
 .lavel {
   display: block;
   float: left;
-  clear: right;
 }
 
 @media screen and (min-width: 864px) {
